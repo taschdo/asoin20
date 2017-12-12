@@ -1,0 +1,327 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.user-panel > .info > p {
+    font-size: 13px;
+}
+.sidebar-menu li.header span {
+    font-size: 14px;
+}
+.sidebar-menu li.header {
+    text-align: center;
+}
+.sidebar-menu li span {
+    font-size: 13px;
+}
+li.user-menu a.dropdown-toggle span.hidden-xs {
+    font-size: 12px;
+}
+footer.main-footer {
+    font-size: 11px;
+}
+h1.h1 {
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.text-center {
+    text-align: center;
+}
+/*h3.box-title {*/
+    /*text-decoration:underline;*/
+/*}*/
+.user-panel > .image > a > img {
+    width: 100%;
+    max-width: 45px;
+    height: auto;
+}
+.user-panel > .info > p > a {
+    color: #FFFFFF;
+}
+.user-panel > .info > p > a:hover {
+    text-decoration:underline;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > a > img {
+    z-index: 5;
+    height: 90px;
+    width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > a > img:hover {
+    z-index: 5;
+    height: 90px;
+    width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.8);
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > a:hover  {
+    background-color:inherit;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p > a  {
+    color: inherit;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p.p-color-white  {
+    color: #FFFFFF;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p > a:hover  {
+    text-decoration:underline;
+}
+.box > .box-body > .profile-user-img {
+    margin: 0 auto;
+    width: 200px;
+    padding: 3px;
+    border: 3px solid #d2d6de;
+}
+.main-user-img {
+    margin: 0 auto;
+    width: 300px;
+    padding: 3px;
+    border: 3px solid #d2d6de;
+}
+.main-my > .labels {
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 3px;
+    line-height: .9;
+}
+.my-class {
+    float: right;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px 0px -9px -9px;
+    position: relative;
+}
+.user_online {
+    float: right;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px 0px -20px -20px;
+    position: relative;
+}
+.text-bright-green {
+    color: #00a65a;
+}
+.itemFloatLeft {
+    float: left;
+}
+.itemFloatRight {
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.itemHeight10 {
+    clear: both;
+    height: 10px;
+}
+.itemMarginTop-5 {
+    margin-top: -5px;
+}
+h4.h4 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+h5.h5 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+h5.h5-smi {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+@media(max-width:992px) {
+    .max-width-992 {
+        margin-top: 10px;
+        border-top:1px solid #f4f4f4;
+        padding-top: 10px;
+    }
+}
+@media(min-width:992px) {
+
+    .max-width-992-subject {
+        border-right:1px solid #f4f4f4;
+    }
+}
+.message {
+    font-size: 13px;
+}
+.box-primary-map {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border: 2px solid #00c0ef;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.padding10 {
+    padding: 4px;
+}
+.nav-stacked > li.active {
+    font-weight: bold;
+}
+.monitoring-search .padding-10-5-5-20 {
+    padding: 10px 5px 5px 20px;
+}
+.monitoring-search .padding-10-5-5-5 {
+    padding: 10px 5px 5px 5px;
+}
+.monitoring-search .padding-10-20-5-5 {
+    padding: 10px 20px 5px 5px;
+}
+@media (max-width: 768px) {
+    .monitoring-search .padding-10-5-5-20 {
+        padding: 10px;
+    }
+    .monitoring-search .padding-10-5-5-5 {
+        padding: 10px;
+    }
+    .monitoring-search .padding-10-20-5-5 {
+        padding: 10px;
+    }
+}
+.spoiler_body {display:none;}
+.spoiler_links {cursor:pointer;}
+.text-font-size-14 {
+    font-size: 14px;
+}
+
+/*#reason,#oksion,#mkion {*/
+    /*display: none;*/
+    /*width: 100%;*/
+/*}*/
+
+#no-resize-vertical {
+    resize: vertical;
+}
+
+.oksion-view-map {
+    padding: 0px;
+}
