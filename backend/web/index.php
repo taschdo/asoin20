@@ -9,6 +9,7 @@ require(__DIR__ . '/../config/bootstrap.php');
 
 list($domain,) = explode(':',$_SERVER['HTTP_HOST']);
 
+
 $config = yii\helpers\ArrayHelper::merge(
     require(__DIR__ . '/../../common/config/main.php'),
     require(__DIR__ . "/../../common/config/$domain.php"),
