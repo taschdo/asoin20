@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=mavens_asoin',
-            'username' => 'mavens_asoin',
-            'password' => 'asoin12345',
+            'dsn' => 'mysql:host=localhost;dbname=dbname',
+            'username' => 'username',
+            'password' => 'password',
             'charset' => 'utf8',
             'tablePrefix'=>'asoin_',
 //            'enableSchemaCache' => true,
