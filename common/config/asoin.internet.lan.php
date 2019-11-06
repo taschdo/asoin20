@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=192.168.31.5;dbname=asoin',
-            'username' => 'userAsoin',
-            'password' => '!QA2ws#ED4rf%TG',
+            'dsn' => 'mysql:host=ip;dbname=dbname',
+            'username' => 'username',
+            'password' => 'password',
             'charset' => 'utf8',
             'tablePrefix'=>'asoin_',
 //            'enableSchemaCache' => true,
